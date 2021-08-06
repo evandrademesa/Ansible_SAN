@@ -1,0 +1,6 @@
+- name: login
+  hosts: 10.50.10.11
+  tasks:
+    - name: login
+      command: switchshow
+      register: status
